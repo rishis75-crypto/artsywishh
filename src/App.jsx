@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+ import { useState, useEffect, useRef } from "react";
 // Artsywishh Store - Full Source Code
 
 const INITIAL_PRODUCTS = [
@@ -248,10 +248,10 @@ export default function Artsywishh() {
       {/* INSTAGRAM */}
       <div id="instagram" style={{ background: "white", padding: "56px 24px", borderTop: "1px solid #f5e6e8" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-          <SectionHead title="As Seen on Instagram" sub="Follow @artsywishh" />
+          <SectionHead title="As Seen on Instagram" sub="Follow @artsywishh_by_mc" />
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(158px,1fr))", gap: 12, marginBottom: 28 }}>
             {INSTAGRAM_POSTS.map(post => (
-              <div key={post.id} className="insta-card" onClick={() => window.open("https://instagram.com/artsywishh", "_blank")}>
+              <div key={post.id} className="insta-card" onClick={() => window.open("https://instagram.com/artsywishh_by_mc", "_blank")}>
                 <div style={{ background: post.bg, height: 158, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 52 }}>{post.emoji}</div>
                 <div style={{ padding: "10px 12px", background: "white" }}>
                   <p style={{ fontFamily: "'Jost',sans-serif", fontSize: 12, color: "#9a7070", marginBottom: 2 }}>❤️ {post.likes}</p>
@@ -261,7 +261,7 @@ export default function Artsywishh() {
             ))}
           </div>
           <div style={{ textAlign: "center" }}>
-            <button className="btn btn-ghost" onClick={() => window.open("https://instagram.com/artsywishh", "_blank")}>📸 Follow on Instagram</button>
+            <button className="btn btn-ghost" onClick={() => window.open("https://instagram.com/artsywishh_by_mc", "_blank")}>📸 Follow on Instagram</button>
           </div>
         </div>
       </div>
@@ -285,7 +285,7 @@ export default function Artsywishh() {
           Flat shipping ₹99 · Easy 7-day returns · Gift wrapping available<br />
           <span style={{ cursor: "pointer", color: "#e8b4b8" }} onClick={() => window.open(`https://wa.me/${WHATSAPP_NUMBER}`, "_blank")}>📱 +91 99999 51933</span>
           {" · "}
-          <span style={{ cursor: "pointer", color: "#e8b4b8" }} onClick={() => window.open("https://instagram.com/artsywishh", "_blank")}>📸 @artsywishh</span>
+          <span style={{ cursor: "pointer", color: "#e8b4b8" }} onClick={() => window.open("https://instagram.com/artsywishh_by_mc", "_blank")}>📸 @artsywishh_by_mc</span>
         </p>
         <p style={{ fontFamily: "'Jost',sans-serif", fontSize: 11, color: "#6d5050", marginTop: 14 }}>© 2026 Artsywishh · Made with 💕</p>
       </footer>
